@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 29, 29);
+    color: aliceblue;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    position: fixed;
+    z-index: 5;
+}
+header>span{
+    color: aliceblue;
+    padding: 30px;
+    background-color: black;
+    position:absolute ;
+}
+header>span>a{
+    text-decoration: none;
+    color: azure;
+    font-size: 22px;
+    background-color: black;
+}
+section{
+    height: fit-content;
+    width: 50vw;
+    background-color: black;
+    border-radius: 10px;
+    position:absolute;
+    margin-left: 21vw;
+    margin-top: 16vh;
+    text-align: center!important;
+    display: flex;
+    flex-wrap: wrap;
+}
+section>span{
+    font-size: 40px;
+    background-color: black;
+    margin-top: 1vh;
+    margin-left: 9vw;
+    padding: 10vh;
+}
+.social{
+    width: 20vw;
+    height: 5vh;
+    background-color: black;
+    border: 1px solid white;
+    justify-self: center;
+    border-radius: 50px;
+    padding: 4px;
+    font-size: 20px;
+}
+.social>a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+}
+.social_media_link{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: fit-content;
+    margin-left: 15vw;
+    position: relative;
+    margin-bottom: 50vh;
+    background-color: black;
+} 
+.input-form{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+    width: 23vw;
+    height: fit-content;
+    margin-left: 13vw;
+    position: relative;
+    margin-bottom: 100vh;
+    background-color: black;
+    text-align: left;
+}
+#email{
+    height: 50px;
+    width: 23vw;
+    border: 1px solid white;
+    background-color: rgb(21, 20, 20);
+    border-radius: 5px;
+}
+#password{
+    height: 50px;
+    width: 23vw;
+    border: 1px solid white;
+    background-color: rgb(21, 20, 20);
+    border-radius: 2px;
+}
+.submit{
+    width: 23vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 7vh;
+    border-radius: 50px;
+    background-color: greenyellow;
+}
+#button{
+    background-color: greenyellow;
+    border: greenyellow;
+    color: black;
+    font-size: 35px;
+}
+#forgot{
+    margin-left: 8vw;
+    background-color: black;
+}
+label{
+    width: 23vw;
+    background-color: black;
+}
+.social:hover{
+    border: 2px;
+}
+.submit{
+    width: 22vw;
+}
+#forgot:hover{
+    color: rgb(13, 233, 13);
+}
+#email:hover{
+    border: 3px;
+}
+#password:hover{
+    border: 3px;
+}
